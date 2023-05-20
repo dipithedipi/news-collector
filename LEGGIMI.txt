@@ -1,0 +1,22 @@
+NECESSARIO: 
+ - python 3.9 in poi
+
+COMANDI:
+  + (1) terminale:
+    - pip install request 
+    - pip install flask 
+    - pip install flask_cors
+    - python server.py
+  
+   + (2) terminale:
+    - python -m http.server
+
+aprire il browser all indirizzo http://127.0.0.1:8000/intro_page.html
+
+ERRORI POSSIBILI:
+  1) dopo essersi registrati se non compaiono notizie provare a modificare il codice 
+     del server.py decommentando un alta api key e commentando quella corrente
+     se non dovesse funzionare vuoldire che l'api non sono disponibili
+  
+  2) se quando si preme il tasto "read more" non arrivano nuove notizie 
+     vuoldire che le api non hanno altre notizie da mandare
